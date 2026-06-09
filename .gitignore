@@ -1,0 +1,23 @@
+# Build and simulation outputs
+build/
+out/
+sim_build/
+work/
+waves/
+
+*.vcd
+*.fst
+*.fsdb
+*.wlf
+*.log
+*.jou
+*.pb
+
+# Tool caches
+.Xil/
+.cache/
+
+# Editor and OS files
+.DS_Store
+*~
+*.swp
