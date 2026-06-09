@@ -9,7 +9,7 @@
 - IP 家族：uart
 - 分类：peripheral
 - 上游来源：OpenCores UART 16550 compatible project
-- 当前基线：本地 RTL 镜像，上游 commit 未知
+- 当前基线：2025-06-27 流片工程代码，本地 RTL 镜像，上游 commit 未知
 - 许可证：LGPL-2.1-or-later
 - 状态：candidate
 
@@ -40,9 +40,9 @@ UART 16550 兼容控制器，并带有一个本地 APB 风格封装。
 OpenCores 来源的 UART RTL 文件头部带有 LGPL-2.1-or-later 许可证声明。
 仓库顶层已补充 `LICENSE` 文件，用于 catalog 许可证评审。
 
-当前源码包未记录镜像 RTL 对应的精确上游 commit。因此本仓库适合作为
-candidate 收录并继续评审，但在锁定上游基线或等价来源记录之前，不应标记为
-approved。
+当前代码来源于 2025-06-27 流片工程代码，并已完成流片验证。当前源码包未记录
+镜像 RTL 对应的精确上游 commit，因此仍需在后续评审中补充工程版本、流片项目
+记录或等价来源凭证。
 
 ## English
 
@@ -55,7 +55,7 @@ approved。
 - Family: uart
 - Category: peripheral
 - Upstream: OpenCores UART 16550 compatible project
-- Current baseline: local RTL mirror, upstream commit unknown
+- Current baseline: 2025-06-27 tapeout project code, local RTL mirror, upstream commit unknown
 - License: LGPL-2.1-or-later
 - Status: candidate
 
@@ -86,7 +86,7 @@ Key ports:
 The bundled OpenCores-origin UART RTL files carry LGPL-2.1-or-later license
 headers. A repository-level `LICENSE` file is included for catalog review.
 
-The exact upstream commit for the mirrored RTL is not recorded in the current
-source drop. This repository is suitable for candidate collection and further
-review, but should not be marked as approved until the baseline source or an
-equivalent provenance record is pinned.
+The current code comes from the 2025-06-27 tapeout project code and has been
+silicon validated. The exact upstream commit for the mirrored RTL is not
+recorded in the current source drop, so future review should still attach the
+project version, tapeout record, or an equivalent provenance reference.

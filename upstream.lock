@@ -4,11 +4,17 @@ upstream_homepage: https://opencores.org/projects/uart16550
 upstream_ref: master
 upstream_ref_type: branch
 upstream_commit:
-mirrored_at:
+mirrored_at: 2025-06-27
 mirror_policy: patched-mirror
-source_status: local RTL source drop with unknown upstream commit
+source_status: 2025-06-27 tapeout project code with unknown upstream commit
+tapeout:
+  date: 2025-06-27
+  status: silicon-validated
+  source: project-code
 notes:
   - The bundled UART core files identify themselves as part of the OpenCores
     "UART 16550 compatible" project.
+  - The current code comes from the 2025-06-27 tapeout project code.
+  - The IP has been silicon validated through that tapeout project.
   - The exact upstream commit was not present in the source drop.
   - The APB top wrapper is local to this repository.
